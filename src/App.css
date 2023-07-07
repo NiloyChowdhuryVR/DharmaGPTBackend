@@ -1,0 +1,262 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar CSS - START*/
+
+.navbarBackground{
+    /* background-color: #f95900; */
+    background-color: #ff7023;
+    transition: 0.5s;   
+}
+.navbarBackground.active{
+    background-color: transparent;
+    transition: 0s;
+}
+
+.staticNav{
+    background-color: #ff7023;
+}
+
+.navBrand{
+    color:white;
+    text-decoration: none;
+}
+
+
+/* Navbar CSS - END*/
+
+/* InfoBar CSS - START */
+
+.info{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.infoBlocks{
+    margin: 2rem !important;
+}
+
+/* InfoBar CSS - END */
+
+/* Choices CSS - START  */
+
+.testView{
+    /* height:100vh; */
+    margin-bottom: 3rem;
+}
+
+.contains{
+    margin-top: 3rem;
+}
+
+.border.col{
+    border: none !important;
+}
+.border{
+    flex-direction: column;
+}
+.border img{
+    border: 2px solid black;
+}
+
+.choiceImg{
+    width:304px;
+    height:500px;
+    object-fit: cover;
+    border:none;
+    border-radius: 30px;
+    transition: 0.2s;
+    margin: 30px 0;
+
+}
+
+.choiceImg:hover{
+    background: rgba(255,255,255,0.3 );
+    background-blend-mode: overlay;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+/* Choices CSS - END  */
+
+/* QnA CSS - START  */
+
+.qnaBox{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.answerBox{
+    height: 90vh;
+    overflow-y: scroll;
+}
+.questionInput{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background: rgba(80, 80, 80, 0.3); */
+    background-color: #ffb347;
+}
+.inputField{
+    height: 2.5rem;
+    width: 50rem;
+    padding: 1.4rem;
+    border: none;
+    border-radius: 15px 0 0 15px;
+}
+
+.submitButton{
+    height: 3rem;
+    width: 6rem;
+    background-color: #ff7023;
+    color: white;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    transition: 0.5s;
+}
+.submitButton:hover{
+    background-color: #ff4d00;
+    
+}
+
+.questionBlock{
+    background: #ffb347;
+    color: rgb(53, 53, 53);
+}
+.answerBlock{
+    color: rgb(53, 53, 53);
+}
+.loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.firstQsHeader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstQsHeader h2{
+    font-family: 'Lilita One', cursive;
+    font-size: 4rem;
+    color: #ffb347;
+}
+.loading{
+    margin-bottom: 50px;
+}
+
+/* QnA CSS - END  */
+
+/* Footer CSS - START */
+
+footer{
+    /* height: 40vh; */
+    background-color: #ff7023;
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer{
+    /* height: 60%; */
+    margin: 3rem 0;
+    color: white;
+}
+.footerContainer h6{
+    color: rgb(248, 248, 248) !important;
+    font-size: 12px;
+}
+.footerContainer h5{
+    font-size: 18px;
+}
+
+/* Footer CSS - END  */
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navOptions{
+        display: none !important; 
+    }
+    .infoBlocks{
+        margin: auto;
+    }
+    .col-6{
+        width: 80% !important;
+    }
+    .inputField{
+        width: 50vw;
+    }
+    .firstQsHeader h2{
+        font-size: 2rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .infoBlocks{
+        margin: auto;
+    }
+    .col-6{
+        width: 90% !important;
+    }
+    .inputField{
+        width: 30rem;
+    }
+    .firstQsHeader h2{
+        font-size: 2rem;
+    }
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .col-6{
+        width: 90% !important;
+    }
+    .inputField{
+        width: 40rem;
+    }
+    .firstQsHeader h2{
+        font-size: 3rem;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .col-6{
+        width: 70% !important;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .col-6{
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 1400) {
+    
+    .col-6{
+        width: 70% !important;
+    }
+}
+
+
+
+
+
