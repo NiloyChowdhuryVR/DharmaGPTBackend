@@ -25,7 +25,7 @@ const QnABible = () => {
     firstQsHeader.style.display = 'none';
     console.log(formvalue.question);
     try{
-      const response = await fetch('http://localhost:8080/bible',{
+      const response = await fetch('https://dharmaback.onrender.com/bible',{
       method: 'POST',
       body:JSON.stringify(formvalue),
       headers:{
