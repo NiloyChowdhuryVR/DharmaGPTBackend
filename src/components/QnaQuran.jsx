@@ -29,7 +29,7 @@ const QnAQuran = () => {
     firstQsHeader.style.display = 'none';
     console.log(formvalue.question);
     try{
-      const response = await fetch('http://localhost:8080/quran',{
+      const response = await fetch('https://dharmaback.onrender.com/quran',{
       method: 'POST',
       body:JSON.stringify(formvalue),
       headers:{
