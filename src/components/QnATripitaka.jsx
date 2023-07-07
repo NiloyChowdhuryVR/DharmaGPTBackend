@@ -29,7 +29,7 @@ const QnATripitaka = () => {
     firstQsHeader.style.display = 'none';
     console.log(formvalue.question);
     try{
-      const response = await fetch('http://localhost:8080/tripitaka',{
+      const response = await fetch('https://dharmaback.onrender.com/tripitaka',{
       method: 'POST',
       body:JSON.stringify(formvalue),
       headers:{
