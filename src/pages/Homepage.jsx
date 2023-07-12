@@ -5,6 +5,7 @@ import Info from "../components/Info";
 import Navbar from "../components/Navbar"
 import Choices from "../components/Choices";
 import Footer from "../components/Footer";
+import Chat from "../components/Chat";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <Home />
       <Info />
       <Choices />
+      <Chat/>
       <Footer/>
     </>
   );

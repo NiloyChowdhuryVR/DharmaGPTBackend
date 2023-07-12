@@ -38,7 +38,7 @@ const QnATripitaka = () => {
     })
     const data = await response.text();
 
-    const finalData = data.replaceAll("**","<br/><br/>");
+    const finalData = data.replaceAll("\\n","<br/>");
 
     loader.style.display = 'none';
 

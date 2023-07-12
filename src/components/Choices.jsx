@@ -8,13 +8,12 @@ import quranReading from "../media/quranReading.jpg"
 import bibleReading from "../media/bibleReading.jpg"
 import { Link } from "react-router-dom";
 
-
 const Choices = () => {
   return (
     <div className="testView" id="choices">
       <Container>
         <div className="text-center contains">
-        <h2>Chose From The Following Choices</h2>
+        <h2><u>Chose From The Following Choices</u></h2>
         </div>
         <br /><br /><br />
         <Row>
@@ -45,6 +44,7 @@ const Choices = () => {
           </Col>
           
         </Row>
+        <hr/>
       </Container>
     </div>
   );

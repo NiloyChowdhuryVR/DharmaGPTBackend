@@ -2,16 +2,15 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import community from "../media/community.png";
 
 const Info = () => {
   return (
-    <div className="info">
+    <div className="info" id="about">
       <Container>
         <Row className="justify-content-md-center">
           <Col className="infoBlocks" xs={6}>
             <br />
-            <h1>Get Answers from Geeta, Quran, Bible!</h1>
+            <h1>Get Answers from Gita, Quran, Bible!</h1>
             <br />
             <p>
               At DharmaGPT, we understand that every spiritual journey is

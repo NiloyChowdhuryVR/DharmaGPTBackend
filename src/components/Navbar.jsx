@@ -25,9 +25,9 @@ function ColorSchemesExample() {
         <Container >
           <Navbar.Brand href="#home">DharmaGPT.</Navbar.Brand>
           <Nav className="me-left">
-            <Nav.Link href="#randoms" className='navOptions'>Random</Nav.Link>
             <Nav.Link href="#about" className='navOptions'>About</Nav.Link>
-            <Nav.Link href="#contact" className='navOptions'>Contact</Nav.Link>
+            <Nav.Link href="#choices" className='navOptions'>Books</Nav.Link>
+            <Nav.Link href="#chat" className='navOptions'>Chat</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

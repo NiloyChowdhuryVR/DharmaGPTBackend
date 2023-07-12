@@ -6,6 +6,7 @@ import Homepage from "./pages/Homepage";
 import Quran from "./components/Quran";
 import Bible from "./components/Bible";
 import Tripitaka from "./components/Tripitaka"
+import ChatOne from "./components/ChatOne";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/quran" element={<Quran />} />
           <Route path="/bible" element={<Bible />} />
           <Route path="/tripitaka" element={<Tripitaka />} />
+          <Route path="/chat/:chatname" element={<ChatOne/>}/>
         </Routes>
       </Router>
     </>
